@@ -1,0 +1,86 @@
+<!--
+  Autor: Evgeniy Nekrasov
+  Centro: HACK A BOSS
+  Fecha: 26 enero 22
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <!-- FORMULARIO -->
+    <section>
+      <form actiion="#" method="get" name="formulario">
+        <!-- Nombre -->
+        <p>
+          <label for="nombre"
+            >Nombre:
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Correo electrónico"
+          /></label>
+        </p>
+
+        <!-- URL -->
+        <p>
+          <label for="url"
+            >URL:
+            <input
+              type="url"
+              name="url"
+              placeholder="Escribe la URL de tu página web personal"
+          /></label>
+        </p>
+        <!-- Fecha -->
+        <p>
+          <label for="fecha">Fecha: <input type="date" /></label>
+        </p>
+        <!-- Tiempo -->
+        <p>
+          <label for="tiempo">Tiempo: <input type="time" /></label>
+        </p>
+        <!-- Fecha y Hora -->
+        <p>
+          <label for="fecha_y_hora"
+            >Fecha y hora: <input type="datetime-local"
+          /></label>
+        </p>
+        <!-- Mes -->
+        <p>
+          <label for="mes">Mes: <input type="month" /></label>
+        </p>
+        <!-- Semana -->
+        <p>
+          <label for="semana">Semana: <input type="week" /></label>
+        </p>
+        <!-- Número -->
+        <p>
+          <label for="numero"
+            >Número: <input type="number" min="-10" max="10"
+          /></label>
+        </p>
+        <!-- Teléfono -->
+        <p>
+          <label for="telefono">Teléfono: <input type="tel" /></label>
+        </p>
+        <!-- Término de busqueda -->
+        <p>
+          <label for="termino_de_busqueda"
+            >Término de busqueda: <input type="search" disabled
+          /></label>
+        </p>
+        <!-- Color -->
+        <p>
+          <label for="color">Color: <input type="color" /></label>
+        </p>
+      </form>
+    </section>
+  </body>
+</html>
