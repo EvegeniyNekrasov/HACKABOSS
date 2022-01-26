@@ -1,0 +1,113 @@
+<!-- 
+    Autor: Evgeniy Nekrasov
+    Centro: HACK A BOSS
+    Fecha: 26 enero 22
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estructura HTML</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAVBAR  -->
+      <h1>Evgeniy</h1>
+      <ul>
+        <li><a href="#peliculas">Mi TOP 10 peliculas</a></li>
+        <li><a href="#viaje_japon">Mi viaje a Japón</a></li>
+        <li><a href="#contacto">Mándame un mensaje</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- TOP PELICULAS -->
+      <section id="peliculas">
+        <h2>Mi TOP 10 peliculas</h2>
+        <ol>
+          <li>El padrino</li>
+          <li>La lista de Schindler</li>
+          <li>El padrino. Parte II</li>
+          <li>Cadena perpetua</li>
+          <li>Pulp fiction</li>
+          <li>El rey león</li>
+          <li>Forest gump</li>
+          <li>La vida es bella</li>
+          <li>Gladiador</li>
+          <li>Coco</li>
+        </ol>
+      </section>
+      <!-- VIAJE A JAPÓN -->
+      <section id="viaje_japon">
+        <img src="img/paisaje.jpg" alt="paisaje" width="300" />
+        <p>Lorem ipsum......</p>
+        <p>Lorem ipsum......</p>
+      </section>
+      <!-- ASSIDE -->
+      <aside>
+        <img src="img/camara.jpg" alt="camara" width="300" />
+        <h2>EVGENIY</h2>
+        <p>Aquí escribo todo lo que se me ocurre</p>
+        <a href="#">eanekrasovart@gmail.com</a>
+      </aside>
+    </main>
+    <!-- FORMULARIO -->
+    <section id="contacto">
+      <form action="#" method="get" name="formulario">
+        <h2>Mándame un mensaje</h2>
+        <!-- NOMBRE -->
+        <p>
+          <label for="nombre"
+            >Nombre:
+            <input type="text" name="nombre" placeholder="Nombre" required
+          /></label>
+        </p>
+        <!-- EMAIL -->
+        <p>
+          <label for="email"
+            >Email:
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Introduce tu email"
+          /></label>
+        </p>
+        <!-- FECHA DE NACIMIENTO -->
+        <p>
+          <label for="fecha"
+            >Fecha: <input type="date" name="fecha" required
+          /></label>
+        </p>
+        <!-- COMENTARIOS -->
+        <p>
+          <label for="comentarios"
+            >Comentarios:
+            <textarea
+              name="texto"
+              id="comentarios"
+              cols="50"
+              rows="6"
+            ></textarea
+            >></label
+          >
+        </p>
+        <!-- CHECHBOX -->
+        <p>
+          <label for="suscribete"
+            >Suscribite a newsleaters<input
+              type="checkbox"
+              name="Suscribite a newsleaters"
+          /></label>
+        </p>
+        <!-- BUTTON -->
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+      </form>
+    </section>
+  </body>
+</html>
